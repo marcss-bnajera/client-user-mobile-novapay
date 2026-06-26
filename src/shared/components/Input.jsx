@@ -1,7 +1,7 @@
 import { TextInput, View, Text, StyleSheet } from "react-native"
 import { COLORS, SPACING, FONT_SIZE } from "../constants/theme"
 
-const Input = (label, error, ...props) => {
+const Input = ({label, error, ...props}) => {
     return (
         <View style={styles.container}>
             {label && <Text style={styles.label}>{label}</Text>}

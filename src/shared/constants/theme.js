@@ -4,7 +4,7 @@ export const COLORS = {
     secondary: "#64748b", // Slate 500
     background: "#f8fafc", // Slate 50
     surface: "#ffffff",
-    text: "#0f172a", // Slate 900
+    text: "#ffffff", // Slate 900
     textLight: "#64748b", // Slate 500
     error: "#ef4444", // Red 500
     success: "#22c55e", // Green 500

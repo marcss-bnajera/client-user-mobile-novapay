@@ -1,11 +1,11 @@
 import { View, Text, StyleSheet, ActivityIndicator } from "react-native"
 import { COLORS, SPACING, FONT_SIZE } from "../constants/theme"
 
-export const LoadingSpinner = () => {
-    <View style={StyleSheet.center}>
+export const LoadingSpinner = () => (
+    <View style={styles.center}>
         <ActivityIndicator size="large" color={COLORS.primary} />
     </View>
-}
+)
 
 export const EmptyState = ({ message = "No hay datos disponibles"}) => (
     <View style={styles.center}>
